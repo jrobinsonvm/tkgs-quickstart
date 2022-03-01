@@ -73,13 +73,28 @@ Workloads running in Sphere Pods or Tanzu Kubernetes clusters will have the same
 - The Spherelet processes on each ESXi hosts communicate with vCenter Server through an interface on the Management Network.
 
 
-Pre-requistes for configuring a supervisor cluster with NSX-T as the networking stack 
+### Pre-requistes for configuring a supervisor cluster with NSX-T as the networking stack 
 
-![nsx-t](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/images/GUID-70E593EA-A4C1-407D-BD2A-031F21B6C14E-high.png)
+![nsx-t-reqs](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/images/GUID-70E593EA-A4C1-407D-BD2A-031F21B6C14E-high.png)
 
 
 
-### What are my deployment options?  
+### What are my deployment options for vSphere with Tanzu and NSX-T?
+
+
+#### Topology for a Management, Edge, and Workload Domain Cluster
+
+You can deploy vSphere with Tanzu with combined management, Edge, and workload management functions on a single vSphere cluster.
+
+![allinonedeployment](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/images/GUID-3A1456AB-1561-455B-B0B7-CF43F5E13A07-high.png)
+
+
+#### Topology with Separate Management and Edge Cluster and Workload Management Cluster
+
+You can deploy vSphere with Tanzu in two clusters, one cluster for the Management and Edge functions, and another one dedicated to Workload Management.
+
+
+![separatedeployment](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/images/GUID-7A19648F-16BD-4990-A047-FB7E4626EF6B-high.png)
 
 
 
