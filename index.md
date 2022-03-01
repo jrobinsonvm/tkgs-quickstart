@@ -8,11 +8,13 @@ vSphere with Tanzu transforms vSphere to a platform for running Kubernetes workl
 
 ### Tanzu Kubernetes Grid Service General Architecture 
 
-![TKGS](../gh-pages/TKGS.png)
 
 ![TKGS](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/TKGS.png)
 
 
+
+### Supervisor Cluster Architecture
+![supervisorcluster](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/images/GUID-FB8FF18C-165F-4DE7-A36B-39BD2A50EBEC-high.png)
 
 
 
