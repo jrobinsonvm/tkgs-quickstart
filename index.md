@@ -102,6 +102,9 @@ You can deploy vSphere with Tanzu in two clusters, one cluster for the Managemen
 
 #### Step 0 - Navigate to Workload Management and select "Get Started"
 ![wloadmgmt](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Workload%20Management.png)
+test
+![wloadmgmt](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Workload%20Management.png)
+
 
 #### Step 1 - Select your preferred networking stack.  If using NSX-T select NSX, otherwise select vSphere Distributed Switch (VDS) 
 
