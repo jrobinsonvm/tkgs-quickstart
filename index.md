@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+## Tanzu Kubernetes Grid Service 
+### Quick & Dirty - Getting Started Guide
 
-You can use the [editor on GitHub](https://github.com/jrobinsonvm/tkgs-quickstart/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The Tanzu Kubernetes Grid Service provides self-service lifecycle management of Tanzu Kubernetes clusters. You use the Tanzu Kubernetes Grid Service to create and manage Tanzu Kubernetes clusters in a declarative manner that is familiar to Kubernetes operators and developers.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+vSphere with Tanzu transforms vSphere to a platform for running Kubernetes workloads natively on the hypervisor layer. When enabled on a vSphere cluster, vSphere with Tanzu provides the capability to run Kubernetes workloads directly on ESXi hosts and to create upstream Kubernetes clusters within dedicated resource pools. [Read more](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-4D0D375F-C001-4F1D-AAB1-1789C5577A94.html)
+
 
 ### Markdown
 
