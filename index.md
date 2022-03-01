@@ -96,6 +96,24 @@ You can deploy vSphere with Tanzu in two clusters, one cluster for the Managemen
 ![separatedeployment](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/images/GUID-7A19648F-16BD-4990-A047-FB7E4626EF6B-high.png)
 
 
+------
+
+### Now its time to Enable Workload Management
+
+#### Step 0 - Navigate to Workload Management and select "Get Started"
+![wloadmgmt](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Workload%20Management.png)
+
+#### Step 1 - Select your preferred networking stack.  If using NSX-T select NSX, otherwise select vSphere Distributed Switch (VDS) 
+
+![wloadmgmt1](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Pasted%20Graphic%201.png)
+
+#### Step 2 - Select your vSphere cluster you would like to make your supervisor cluster.   
+
+![wloadmgmt2](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Pasted%20Graphic%202.png)
+
+#### Step 3 - Select your storage policy that was created earlier and assign it.   
+
+![wloadmgmt3](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Pasted%20Graphic%203.png)
 
 
 
