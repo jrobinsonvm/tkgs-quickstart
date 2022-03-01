@@ -125,15 +125,16 @@ You can deploy vSphere with Tanzu in two clusters, one cluster for the Managemen
 
 ![workload](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%205.png)
 
-
 #### Step 6 - Set your content library 
 
 ![content](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%206.png)
 
-#### Step 7 - Configure the size of your control plane nodes and optionally configure a DNS Name for the API Server.   
+#### Step 7 - Configure the size of your control plane nodes and optionally configure a DNS Name for the API Server. Once complete, select Finish.   
 
 ![api](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%207.png)
 
+#### Step 8 - Wait for Workload Management to complete.  
+![done](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%208.png)
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jrobinsonvm/tkgs-quickstart/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
