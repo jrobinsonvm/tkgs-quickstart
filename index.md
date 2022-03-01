@@ -136,6 +136,17 @@ You can deploy vSphere with Tanzu in two clusters, one cluster for the Managemen
 #### Step 8 - Wait for Workload Management to complete.  
 ![done](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%208.png)
 
+#### Step 9 - Once Workload Management completes, select the Namespace tab to create a new Namespace to deploy your first Kubernetes Cluster.   
+![done](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%209.png)
+
+#### Step 10 - Navigate to your newly created namespace.     
+![done](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Pasted%20Graphic%2010.png?raw=true)
+
+
+
+
+
+
 -----
 
 For more details see the offical [vSphere with Tanzu Docs](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-152BE7D2-E227-4DAA-B527-557B564D9718.html).
