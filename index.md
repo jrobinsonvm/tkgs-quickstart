@@ -101,8 +101,7 @@ You can deploy vSphere with Tanzu in two clusters, one cluster for the Managemen
 ### Now its time to Enable Workload Management
 
 #### Step 0 - Navigate to Workload Management and select "Get Started"
-![wloadmgmt](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Workload%20Management.png)
-test
+
 ![wloadmgmt](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Workload%20Management.png)
 
 
@@ -116,8 +115,24 @@ test
 
 #### Step 3 - Select your storage policy that was created earlier and assign it.   
 
-![wloadmgmt3](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%203.png)
+![storage](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%203.png)
 
+#### Step 4 - Configure the Management Network 
+
+![mgmtnet](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%204.png)
+
+#### Step 5 - Configure the Workload Network 
+
+![workload](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%205.png)
+
+
+#### Step 6 - Set your content library 
+
+![content](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%206.png)
+
+#### Step 7 - Configure the size of your control plane nodes and optionally configure a DNS Name for the API Server.   
+
+![api](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%207.png)
 
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jrobinsonvm/tkgs-quickstart/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
