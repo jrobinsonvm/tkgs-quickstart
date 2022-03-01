@@ -27,7 +27,7 @@ A vSphere Namespace sets the resource boundaries where vSphere Pods and Tanzu Ku
 
 
 ### Tanzu Kubernetes Grid Cluster Architecture 
-![namespace](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/images/GUID-389BC19D-1AC5-4F1E-9055-2B8903AFC342-high.png)
+![tkc](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/images/GUID-389BC19D-1AC5-4F1E-9055-2B8903AFC342-high.png)
 
 A Tanzu Kubernetes cluster is a full distribution of the open-source Kubernetes software that is packaged, signed, and supported by VMware. In the context of vSphere with Tanzu, you can use the Tanzu Kubernetes Grid Service to provision Tanzu Kubernetes clusters on the Supervisor Cluster. You can invoke the Tanzu Kubernetes Grid Service API declaratively by using kubectl and a YAML definition.
 
