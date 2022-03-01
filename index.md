@@ -37,11 +37,6 @@ A Tanzu Kubernetes cluster resides in a vSphere Namespace. You can deploy worklo
 
 
 
-### What are my deployment options?  
-
-
-
-
 ### What are my vSphere with Tanzu Networking Options?
 
 A Supervisor Cluster can either use the vSphere networking stack or VMware NSX-T™ Data Center to provide connectivity to Kubernetes control plane VMs, services, and workloads. The networking used for Tanzu Kubernetes clusters provisioned by the Tanzu Kubernetes Grid Service is a combination of the fabric that underlies the vSphere with Tanzu infrastructure and open-source software that provides networking for cluster pods, services, and ingress.
@@ -57,6 +52,30 @@ You can also configure the Supervisor Cluster networking manually by using an ex
 
 ![nsx-t](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/images/GUID-3ACAC5F4-AC41-4602-A648-E4D02449B7BA-high.png)
 
+
+- NSX Container Plug-in (NCP) provides integration between NSX-T Data Center and Kubernetes. The main component of NCP runs in a container and communicates with NSX Manager and with the Kubernetes control plane. NCP monitors changes to containers and other resources and manages networking resources such as logical ports, segments, routers, and security groups for the containers by calling the NSX API.   The NCP creates one shared tier-1 gateway for system namespaces and a tier-1 gateway and load balancer for each namespace, by default. The tier-1 gateway is connected to the tier-0 gateway and a default segment.   System namespaces are namespaces that are used by the core components that are integral to functioning of the supervisor cluster and Tanzu Kubernetes. The shared network resources that include the tier-1 gateway, load balancer, and SNAT IP are grouped in a system namespace.
+
+- NSX Edge provides connectivity from external networks to Supervisor Cluster objects. The NSX Edge cluster has a load balancer that provides a redundancy to the Kubernetes API servers residing on the control plane VMs and any application that must be published and be accessible from outside the Supervisor Cluster.
+
+- A tier-0 gateway is associated with the NSX Edge cluster to provide routing to the external network. The uplink interface uses either the dynamic routing protocol, BGP, or static routing.
+
+- Each vSphere Namespace has a separate network and set of networking resources shared by applications inside the namespace such as, tier-1 gateway, load balancer service, and SNAT IP address.
+
+- Workloads running in Sphere Pods, regular VMs, or Tanzu Kubernetes clusters, that are in the same namespace, share a same SNAT IP for North-South connectivity.
+Workloads running in Sphere Pods or Tanzu Kubernetes clusters will have the same isolation rule that is implemented by the default firewall.
+
+- A separate SNAT IP is not required for each Kubernetes namespace. East west connectivity between namespaces will be no SNAT.
+
+- The segments for each namespace reside on the vSphere Distributed Switch (VDS) functioning in Standard mode that is associated with the NSX Edge cluster. The segment provides an overlay network to the Supervisor Cluster.
+
+- Supervisor clusters have separate segments within the shared tier-1 gateway. For each Tanzu Kubernetes cluster, segments are defined within the tier-1 gateway of the namespace.
+
+- The Spherelet processes on each ESXi hosts communicate with vCenter Server through an interface on the Management Network.
+
+
+
+
+### What are my deployment options?  
 
 
 
