@@ -6,9 +6,13 @@ The Tanzu Kubernetes Grid Service provides self-service lifecycle management of 
 vSphere with Tanzu transforms vSphere to a platform for running Kubernetes workloads natively on the hypervisor layer. When enabled on a vSphere cluster, vSphere with Tanzu provides the capability to run Kubernetes workloads directly on ESXi hosts and to create upstream Kubernetes clusters within dedicated resource pools. [Read more](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-4D0D375F-C001-4F1D-AAB1-1789C5577A94.html)
 
 
-### Tanzu Kubernetes Grid Service Deployment Architecture 
+### Tanzu Kubernetes Grid Service General Architecture 
 
 ![TKGS](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/TKGS.png)
+
+A cluster that is enabled for vSphere with Tanzu is called a Supervisor Cluster. It runs on top of an SDDC layer that consists of ESXi for compute, NSX-T Data Center or vSphere networking, and vSAN or another shared storage solution. Shared storage is used for persistent volumes for vSphere Pods, VMs running inside the Supervisor Cluster, and pods in a Tanzu Kubernetes cluster. After a Supervisor Cluster is created, as a vSphere administrator you can create namespaces within the Supervisor Cluster that are called vSphere Namespaces. As a DevOps engineer, you can run workloads consisting of containers running inside vSphere Pods and create Tanzu Kubernetes clusters.
+
+### Tanzu Kubernetes Grid Service Deployment Architecture 
 
 
 
