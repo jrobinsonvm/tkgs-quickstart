@@ -10,6 +10,11 @@ vSphere with Tanzu transforms vSphere to a platform for running Kubernetes workl
 
 ![TKGS](../gh-pages/TKGS.png)
 
+![TKGS](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/TKGS.png)
+
+
+
+
 
 A cluster that is enabled for vSphere with Tanzu is called a Supervisor Cluster. It runs on top of an SDDC layer that consists of ESXi for compute, NSX-T Data Center or vSphere networking, and vSAN or another shared storage solution. Shared storage is used for persistent volumes for vSphere Pods, VMs running inside the Supervisor Cluster, and pods in a Tanzu Kubernetes cluster. After a Supervisor Cluster is created, as a vSphere administrator you can create namespaces within the Supervisor Cluster that are called vSphere Namespaces. As a DevOps engineer, you can run workloads consisting of containers running inside vSphere Pods and create Tanzu Kubernetes clusters.
 
