@@ -93,8 +93,9 @@ You can deploy vSphere with Tanzu with combined management, Edge, and workload m
 
 You can deploy vSphere with Tanzu in two clusters, one cluster for the Management and Edge functions, and another one dedicated to Workload Management.
 
-
 ![separatedeployment](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/images/GUID-7A19648F-16BD-4990-A047-FB7E4626EF6B-high.png)
+
+
 
 
 
