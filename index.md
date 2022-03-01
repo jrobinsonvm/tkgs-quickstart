@@ -41,6 +41,25 @@ A Tanzu Kubernetes cluster resides in a vSphere Namespace. You can deploy worklo
 
 
 
+
+### What are my vSphere with Tanzu Networking Options?
+
+A Supervisor Cluster can either use the vSphere networking stack or VMware NSX-T™ Data Center to provide connectivity to Kubernetes control plane VMs, services, and workloads. The networking used for Tanzu Kubernetes clusters provisioned by the Tanzu Kubernetes Grid Service is a combination of the fabric that underlies the vSphere with Tanzu infrastructure and open-source software that provides networking for cluster pods, services, and ingress.
+
+
+
+### Supervisor Cluster Networking with NSX-T Data Center ( Our Focus) 
+
+VMware NSX-T Data Center™ provides network connectivity to the objects inside the Supervisor Cluster and external networks. Connectivity to the ESXi hosts comprising the cluster is handled by the standard vSphere networks.
+
+You can also configure the Supervisor Cluster networking manually by using an existing NSX-T Data Center deployment or by deploying a new instance of NSX-T Data Center.
+
+
+![nsx-t](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/images/GUID-3ACAC5F4-AC41-4602-A648-E4D02449B7BA-high.png)
+
+
+
+
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jrobinsonvm/tkgs-quickstart/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
