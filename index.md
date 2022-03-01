@@ -108,7 +108,7 @@ test
 
 #### Step 1 - Select your preferred networking stack.  If using NSX-T select NSX, otherwise select vSphere Distributed Switch (VDS) 
 
-![wloadmgmt1](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Pasted%20Graphic%201.png)
+![wloadmgmt1](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%201.png)
 
 #### Step 2 - Select your vSphere cluster you would like to make your supervisor cluster.   
 
