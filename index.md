@@ -142,7 +142,11 @@ You can deploy vSphere with Tanzu in two clusters, one cluster for the Managemen
 #### Step 10 - Navigate to your newly created namespace.     
 ![done](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Pasted%20Graphic%2010.png?raw=true)
 
+#### Step 11 - Add Permissions (RBAC) to your namespace by selecting the Add Permissions button under Permissions.  Users or Groups can be added.   
+![done](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Pasted%20Graphic%2011.png?raw=true)
 
+#### Step 12 - Add a Storage Policy to your namespace by selecting the Add Storage button under Storage.  Select the storage policy we created earlier.   Kubernetes Persistent Volumes will utilize the underlying storage.   
+![done](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Pasted%20Graphic%2011.png?raw=true)
 
 
 
