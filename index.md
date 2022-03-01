@@ -112,11 +112,11 @@ test
 
 #### Step 2 - Select your vSphere cluster you would like to make your supervisor cluster.   
 
-![wloadmgmt2](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Pasted%20Graphic%202.png)
+![wloadmgmt2](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%202.png)
 
 #### Step 3 - Select your storage policy that was created earlier and assign it.   
 
-![wloadmgmt3](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Pasted%20Graphic%203.png)
+![wloadmgmt3](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%203.png)
 
 
 
