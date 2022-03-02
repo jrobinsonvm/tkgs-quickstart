@@ -154,6 +154,9 @@ You can deploy vSphere with Tanzu in two clusters, one cluster for the Managemen
 #### Step 14 - Add VM Classes you wish to associate with your namespace by selecting Manage VM Classes under VM Service.        
 ![done](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%2014.png)
 
+#### Step 15 - Add a content library to your namespace by selecting Manage Content Libraries under VM Service.  Your VM's OVAs are located here.           
+![done](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Add%20Content%20Library.png)
+
 
 
 
