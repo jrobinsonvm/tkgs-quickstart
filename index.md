@@ -151,6 +151,9 @@ You can deploy vSphere with Tanzu in two clusters, one cluster for the Managemen
 #### Step 13 - Set resource limits for your namespace by selecting the Edit Limits button under Capacity and Usage.  This allows you to provide self service access with guardrails.     
 ![done](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%2013.png)
 
+#### Step 14 - Add VM Classes you wish to associate with your namespace by selecting Manage VM Classes under VM Service.        
+![done](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%2014.png)
+
 
 
 
