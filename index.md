@@ -9,7 +9,7 @@ vSphere with Tanzu transforms vSphere to a platform for running Kubernetes workl
 ### Tanzu Kubernetes Grid Service General Architecture 
 
 
-![TKGS](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/TKGS.png)
+![TKGS](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/TKGS.png)
 
 
 
@@ -102,51 +102,51 @@ You can deploy vSphere with Tanzu in two clusters, one cluster for the Managemen
 
 #### Step 0 - Navigate to Workload Management and select "Get Started"
 
-![wloadmgmt](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Workload%20Management.png)
+![wloadmgmt](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Workload%20Management.png)
 
 
 #### Step 1 - Select your preferred networking stack.  If using NSX-T select NSX, otherwise select vSphere Distributed Switch (VDS) 
 
-![wloadmgmt1](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%201.png)
+![wloadmgmt1](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%201.png)
 
 #### Step 2 - Select your vSphere cluster you would like to make your supervisor cluster.   
 
-![wloadmgmt2](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%202.png)
+![wloadmgmt2](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%202.png)
 
 #### Step 3 - Select your storage policy that was created earlier and assign it.   
 
-![storage](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%203.png)
+![storage](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%203.png)
 
 #### Step 4 - Configure the Management Network 
 
-![mgmtnet](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%204.png)
+![mgmtnet](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%204.png)
 
 #### Step 5 - Configure the Workload Network 
 
-![workload](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%205.png)
+![workload](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%205.png)
 
 #### Step 6 - Set your content library 
 
-![content](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%206.png)
+![content](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%206.png)
 
 #### Step 7 - Configure the size of your control plane nodes and optionally configure a DNS Name for the API Server. Once complete, select Finish.   
 
-![api](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%207.png)
+![api](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%207.png)
 
 #### Step 8 - Wait for Workload Management to complete.  
-![done](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%208.png)
+![done](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%208.png)
 
 #### Step 9 - Once Workload Management completes, select the Namespace tab to create a new Namespace to deploy your first Kubernetes Cluster.   
-![done](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/Pasted%20Graphic%209.png)
+![done](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%209.png)
 
 #### Step 10 - Navigate to your newly created namespace.     
-![done](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Pasted%20Graphic%2010.png?raw=true)
+![done](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/images/Pasted%20Graphic%2010.png?raw=true)
 
 #### Step 11 - Add Permissions (RBAC) to your namespace by selecting the Add Permissions button under Permissions.  Users or Groups can be added.   
-![done](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Pasted%20Graphic%2011.png?raw=true)
+![done](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/images/Pasted%20Graphic%2011.png?raw=true)
 
 #### Step 12 - Add a Storage Policy to your namespace by selecting the Add Storage button under Storage.  Select the storage policy we created earlier.   Kubernetes Persistent Volumes will utilize the underlying storage.   
-![done](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/Pasted%20Graphic%2011.png?raw=true)
+![done](https://github.com/jrobinsonvm/tkgs-quickstart/blob/gh-pages/images/Pasted%20Graphic%2011.png?raw=true)
 
 
 
