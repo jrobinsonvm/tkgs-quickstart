@@ -50,7 +50,7 @@ VMware NSX-T Data Center™ provides network connectivity to the objects inside 
 You can also configure the Supervisor Cluster networking manually by using an existing NSX-T Data Center deployment or by deploying a new instance of NSX-T Data Center.
 
 
-![nsx-t](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/images/GUID-3ACAC5F4-AC41-4602-A648-E4D02449B7BA-high.png)
+![nsx-t](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/nsx-t.png)
 
 
 - NSX Container Plug-in (NCP) provides integration between NSX-T Data Center and Kubernetes. The main component of NCP runs in a container and communicates with NSX Manager and with the Kubernetes control plane. NCP monitors changes to containers and other resources and manages networking resources such as logical ports, segments, routers, and security groups for the containers by calling the NSX API.   The NCP creates one shared tier-1 gateway for system namespaces and a tier-1 gateway and load balancer for each namespace, by default. The tier-1 gateway is connected to the tier-0 gateway and a default segment.   System namespaces are namespaces that are used by the core components that are integral to functioning of the supervisor cluster and Tanzu Kubernetes. The shared network resources that include the tier-1 gateway, load balancer, and SNAT IP are grouped in a system namespace.
