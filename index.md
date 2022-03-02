@@ -148,6 +148,9 @@ You can deploy vSphere with Tanzu in two clusters, one cluster for the Managemen
 #### Step 12 - Add a Storage Policy to your namespace by selecting the Add Storage button under Storage.  Select the storage policy we created earlier.   Kubernetes Persistent Volumes will utilize the underlying storage.   
 ![done](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%2012.png)
 
+#### Step 13 - Set resource limits for your namespace by selecting the Edit Limits button under Capacity and Usage.  This allows you to provide self service access with guardrails.     
+![done](https://raw.githubusercontent.com/jrobinsonvm/tkgs-quickstart/gh-pages/images/Pasted%20Graphic%2013.png)
+
 
 
 
